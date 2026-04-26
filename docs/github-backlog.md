@@ -28,6 +28,7 @@ Suggested project name: `Broker Rentals MVP`
 - Delete listing
 - Duplicate listing
 - Add validation for required fields
+- Future: show draft completeness state before publishing
 
 ## Epic 4: Media Upload
 
