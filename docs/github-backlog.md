@@ -12,7 +12,8 @@ Suggested project name: `Broker Rentals MVP`
 
 ## Epic 2: Broker Login and Profile
 
-- Broker login with `mobile number + OTP`
+- Broker login with `Google Sign-In`
+- First-time broker routing to profile setup
 - Broker onboarding flow
 - Create and edit broker profile
 - Add broker photo or logo upload
