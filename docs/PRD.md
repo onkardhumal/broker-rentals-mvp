@@ -15,7 +15,8 @@ One-line summary: a mobile-first tool that lets a broker create a personal renta
 
 - Broker login only
 - No renter login in MVP
-- Recommended authentication: `mobile number + OTP`
+- Recommended authentication: `Google Sign-In`
+- Broker phone number and WhatsApp number are collected in profile setup, not during authentication
 
 ## Problem
 
@@ -54,7 +55,7 @@ Help a broker publish a clean rental listings page in minutes and help renters f
 
 ## Broker requirements
 
-- Sign in using mobile OTP
+- Sign in using Google
 - Create public profile with name, phone, WhatsApp number, photo/logo, and service area
 - Add rental listings with images, videos, and property details
 - Share broker page link
@@ -101,7 +102,7 @@ Help a broker publish a clean rental listings page in minutes and help renters f
 
 ## Primary user flow
 
-1. Broker signs in with mobile OTP
+1. Broker signs in with Google
 2. Broker sets up profile
 3. Broker adds first rental listing
 4. Broker uploads photos and videos
@@ -128,7 +129,7 @@ Help a broker publish a clean rental listings page in minutes and help renters f
 - Simple onboarding
 - Trustworthy UI
 - Basic SEO and link-preview support for public pages
-- Secure OTP-based authentication
+- Secure Google-based authentication
 - Basic media compression for upload speed
 
 ## Success metrics
