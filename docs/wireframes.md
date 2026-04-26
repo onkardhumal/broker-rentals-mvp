@@ -128,6 +128,7 @@ Relevant issues: `#2`, `#3`, `#4`, `#5`, `#9`
 **UX note**
 
 - Share link stays near the top because sharing is the broker's daily behavior
+- Share on each listing card means the broker can send a direct public link to that exact property, and the viewer lands on the listing-detail experience rather than the full dashboard
 - Listing cards show the minimum decision info: type, locality, price, status
 
 ## Screen 4: Add listing - basics
@@ -148,13 +149,13 @@ Relevant issue: `#3`
 |  Society / Building                              |
 |  [______________________________]               |
 |                                                  |
-|  Rent                                             |
+|  Rent (Optional)                                 |
 |  [______________________________]               |
 |                                                  |
 |  Deposit                                          |
 |  [______________________________]               |
 |                                                  |
-|  Brokerage                                        |
+|  Brokerage (Optional)                            |
 |  [______________________________]               |
 |                                                  |
 |  [ Continue ]                                     |
@@ -165,6 +166,7 @@ Relevant issue: `#3`
 
 - Use selection chips for property type to reduce typing
 - Put locality and price early because they are the most searched fields
+- Rent and brokerage stay optional in MVP, but if left blank the public UI should display `Ask broker`
 
 ## Screen 5: Add listing - furnishing, media, publish
 
@@ -199,6 +201,7 @@ Relevant issues: `#3`, `#4`
 
 - Keep one video optional in MVP
 - Save draft is useful because brokers often collect details in pieces
+- A richer `draft completeness` state can come later, but it is not required for MVP
 
 ## Screen 6: Public broker page
 
