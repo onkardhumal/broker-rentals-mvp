@@ -27,6 +27,7 @@ Small brokers post many scattered property updates every day. This MVP gives eac
 - `docs/github-backlog.md` - suggested GitHub epics and issue list
 - `docs/user-stories.md` - MVP user stories with acceptance criteria and INVEST checks
 - `docs/wireframes.md` - mobile-first low-fidelity wireframes for broker and renter flows
+- `docs/high-fidelity-ui-spec.md` - higher-fidelity visual and interaction spec for the MVP
 
 ## Status
 
