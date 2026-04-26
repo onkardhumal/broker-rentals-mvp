@@ -77,9 +77,9 @@ Help a broker publish a clean rental listings page in minutes and help renters f
 - Area or locality
 - Society or building name
 - Property type: `1 RK`, `1 BHK`, `2 BHK`, `3 BHK`, `4 BHK`, studio, penthouse, room, PG, shop, office, and similar rental categories
-- Rent amount
+- Rent amount: optional in MVP
 - Deposit
-- Brokerage or charges
+- Brokerage or charges: optional in MVP
 - Furnishing: `Unfurnished`, `Semi-furnished`, or `Furnished`
 - Availability
 - Size if available
@@ -114,10 +114,12 @@ Help a broker publish a clean rental listings page in minutes and help renters f
 
 - Each broker gets a public shareable page
 - Each listing gets its own public URL
+- Broker can share an individual listing link from the dashboard or listing view
 - Public pages must be mobile-friendly
 - Listing filters must work without login
 - Property-type filters must support common rental formats such as `1 BHK`, `2 BHK`, `3 BHK`, `4 BHK`, and penthouse
 - Furnishing filters must support `Unfurnished`, `Semi-furnished`, and `Furnished`
+- If rent or brokerage is not provided, renter-facing UI should show a fallback such as `Ask broker`
 - Call and WhatsApp actions must be clearly visible
 - Media uploads should work well from mobile devices
 - Broker must be able to edit or deactivate listings at any time
