@@ -25,6 +25,7 @@ Small brokers post many scattered property updates every day. This MVP gives eac
 
 - `docs/PRD.md` - rental-only product requirements
 - `docs/github-backlog.md` - suggested GitHub epics and issue list
+- `docs/user-stories.md` - MVP user stories with acceptance criteria and INVEST checks
 
 ## Status
 
