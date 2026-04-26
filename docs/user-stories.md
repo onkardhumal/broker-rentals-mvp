@@ -2,23 +2,24 @@
 
 These stories are written for the rental-only MVP. Each story includes acceptance criteria and a short INVEST check so the scope stays small, testable, and ready for implementation.
 
-## Story 1: Broker login with OTP
+## Story 1: Broker login with Google
 
 **User story**
 
-As a broker, I want to log in with my mobile number and OTP so that I can manage my rental listings without needing a password.
+As a broker, I want to log in with my Google account so that I can access my rental listings without needing to remember a separate password.
 
 **Acceptance criteria**
 
-- Broker can enter a valid mobile number to request an OTP
-- Broker can submit the OTP and log in successfully
-- Invalid or expired OTP shows a clear error message
+- Broker can start login with Google Sign-In
+- Broker can complete Google authentication and log in successfully
+- First-time broker is routed to profile setup after successful login
 - Returning broker lands on the broker dashboard after successful login
+- Failed or cancelled Google authentication shows a clear error state
 
 **INVEST check**
 
 - `Independent`: authentication can be built and tested separately from listing management
-- `Negotiable`: OTP vendor and session handling can change without changing the story goal
+- `Negotiable`: Google provider details and session handling can change without changing the story goal
 - `Valuable`: it unlocks secure broker-only access
 - `Estimable`: the flow is small and clear
 - `Small`: covers only login, not full onboarding
