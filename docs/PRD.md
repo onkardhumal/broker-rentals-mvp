@@ -65,7 +65,7 @@ Help a broker publish a clean rental listings page in minutes and help renters f
 
 - Open shared link without login
 - Browse listings from one broker
-- Filter by area, price, room type, society, and brokerage
+- Filter by area, price, room type, society, brokerage, and furnishing
 - View photos, videos, and full rental details
 - Call broker directly
 - Message broker on WhatsApp directly
@@ -75,11 +75,11 @@ Help a broker publish a clean rental listings page in minutes and help renters f
 - Listing title
 - Area or locality
 - Society or building name
-- Property type: `1 RK`, `1 BHK`, `2 BHK`, room, PG, shop, office, and similar rental categories
+- Property type: `1 RK`, `1 BHK`, `2 BHK`, `3 BHK`, `4 BHK`, studio, penthouse, room, PG, shop, office, and similar rental categories
 - Rent amount
 - Deposit
 - Brokerage or charges
-- Furnishing
+- Furnishing: `Unfurnished`, `Semi-furnished`, or `Furnished`
 - Availability
 - Size if available
 - Floor if relevant
@@ -115,6 +115,8 @@ Help a broker publish a clean rental listings page in minutes and help renters f
 - Each listing gets its own public URL
 - Public pages must be mobile-friendly
 - Listing filters must work without login
+- Property-type filters must support common rental formats such as `1 BHK`, `2 BHK`, `3 BHK`, `4 BHK`, and penthouse
+- Furnishing filters must support `Unfurnished`, `Semi-furnished`, and `Furnished`
 - Call and WhatsApp actions must be clearly visible
 - Media uploads should work well from mobile devices
 - Broker must be able to edit or deactivate listings at any time
