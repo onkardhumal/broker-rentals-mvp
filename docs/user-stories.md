@@ -55,10 +55,10 @@ As a broker, I want to create a rental listing with property details so that ren
 
 **Acceptance criteria**
 
-- Broker can create a listing with title, area, society, property type, rent, deposit, brokerage, furnishing, availability, and description
+- Broker can create a listing with title, area, society, property type, optional rent, deposit, optional brokerage, furnishing, availability, and description
 - Property type options include `1 RK`, `1 BHK`, `2 BHK`, `3 BHK`, `4 BHK`, studio, penthouse, room, PG, shop, and office
 - Furnishing options include `Unfurnished`, `Semi-furnished`, and `Furnished`
-- Required fields must be completed before publish
+- Required fields for publish do not include rent or brokerage
 - New listing is visible in the broker dashboard after save
 
 **INVEST check**
